@@ -1,0 +1,9 @@
+s3_default:
+  conn_type: generic
+  description: null
+  extra: '{"aws_access_key_id":"aaa", "aws_secret_access_key": "","aws_session_token":""}'
+  host: null
+  login: null
+  password: null
+  port: null
+  schema: null
