@@ -6,7 +6,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 
 def _exec(**context):
-    shutil.rmtree('/usr/local/airflow/temp')
+    print("Anything")
     
 default_args = {
     'start_date' : datetime(2021,1,1)
